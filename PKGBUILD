@@ -1,9 +1,10 @@
 # Maintainer: Severen Redwood <sev@severen.dev>
+# Maintainer: Kevin Stolp <kevinstolp@gmail.com>
 # Contributor: Federico Squartini <federico.squartini at gmail dot com>
 
 pkgname=exercism
-pkgver=3.3.0
-pkgrel=3
+pkgver=3.4.0
+pkgrel=1
 pkgdesc="Command line tool for exercism.io"
 arch=("x86_64")
 url="https://github.com/exercism/cli"
@@ -11,7 +12,7 @@ license=("MIT")
 depends=("glibc")
 makedepends=("go")
 source=("https://github.com/exercism/cli/archive/v${pkgver}.tar.gz")
-sha256sums=('65f960c23a2c423cd8dfa2d8fcc1a083c3d5bc483717c96b5c71d3549fbc0fb7')
+sha256sums=('e25f85e80c517551a6cd55a5289af3caf2819356601ef907339f82aa8145f004')
 
 prepare() {
   export GOPATH="$srcdir/.gopath"
