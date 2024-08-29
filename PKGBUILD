@@ -3,7 +3,7 @@
 # Contributor: Federico Squartini <federico.squartini at gmail dot com>
 
 pkgname=exercism
-pkgver=3.5.0
+pkgver=3.5.1
 pkgrel=1
 pkgdesc="Command line tool for exercism.io"
 arch=("x86_64")
@@ -12,7 +12,7 @@ license=("MIT")
 depends=("glibc")
 makedepends=("go")
 source=("https://github.com/exercism/cli/archive/v${pkgver}.tar.gz")
-sha256sums=('819ac86c397782c8227ae443418c46ce86bfd0bd4ee6c67175102a7e67ba3010')
+sha256sums=('e20e30ea0acc8a47d67d577e13af87fc7a189f133b0b9f092594a7b65993166b')
 
 prepare() {
   export GOPATH="$srcdir/.gopath"
