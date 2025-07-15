@@ -4,7 +4,7 @@
 
 pkgname=exercism
 pkgver=3.5.7
-pkgrel=1
+pkgrel=2
 pkgdesc="Command line tool for exercism.io"
 arch=("x86_64")
 url="https://github.com/exercism/cli"
@@ -12,7 +12,7 @@ license=("MIT")
 depends=("glibc")
 makedepends=("go")
 source=("https://github.com/exercism/cli/archive/v${pkgver}.tar.gz")
-sha256sums=('53a8dd58b8552ccd963af0b2d4e1c83b0383a78aa9ba75eb8f9b6f28a226bbb0')
+sha256sums=('dc8f06d9390a8ff11b24b251644287453e73f0f71eb4277f8fb53dca1825140a')
 
 prepare() {
   export GOPATH="$srcdir/.gopath"
